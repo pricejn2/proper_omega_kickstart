@@ -4,7 +4,14 @@ core = '7.x'
 engine = 'phptemplate'
 screenshot = 'screenshot.png'
 base theme = 'omega'
-version = '7.x-3.x'
+version = '7.x-3.0'
+
+; COMPASS
+
+compass[css_dir] = "css"
+compass[images_dir] = "images"
+compass[sass_dir] = "scss"
+compass[status] = 1
 
 scripts[] = js/proper_omega_kickstart.js
 
