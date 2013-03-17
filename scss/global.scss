@@ -977,7 +977,7 @@ select {
       display: block;
     }
     .views-field-field-headline {
-      font-family: Georgia, 'Times New Roman', serif;
+      font-family: $headerfont;
     }
   }
 
@@ -1111,7 +1111,7 @@ select {
 */
 #block-menu-menu-social-connection {
   h2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: $headerfont;
     font-weight: 700;
     line-height: 16px;
     padding: 8px 15px;
@@ -1121,7 +1121,7 @@ select {
   .content ul.menu {
     list-style: none;
     li {
-      font-family: 'Open Sans', sans-serif;
+      font-family: $headerfont;
       font-weight: 400;
       line-height: 15px;
       margin-top: 2px;
@@ -1137,7 +1137,7 @@ select {
         background-position: 2% 50%; /* LTR */
         background-repeat: no-repeat;
         color: $footermenulinkcolor;
-        font-family: 'Open Sans', sans-serif;
+        font-family: $headerfont;
         font-weight: 400;
         display: block;
         height: 35px;
@@ -2440,7 +2440,7 @@ ol.inline.commerce-checkout-progress {
           }
         }
         .form-submit {
-          font: normal 16px/21px "Open Sans", Arial, sans-serif;
+          font: normal 16px/21px $headerfont;
           line-height: 30px;
           padding: 4px 15px;
         }
@@ -2686,7 +2686,7 @@ article.comment {
       }
     }
     .form-submit {
-      font: normal 16px/21px "Open Sans", Arial, sans-serif;
+      font: normal 16px/21px $headerfont;
       line-height: 30px;
       padding: 4px 15px;
     }
@@ -2792,7 +2792,7 @@ article.comment {
   #user_login_form h1,
   .create-account h2,
   #user_pass_form h1 {
-    font: normal 300 38px/38px "Open Sans", Arial, sans-serif;
+    font: normal 300 38px/38px $headerfont;
   }
   /* Registration form */
   form#user-register-form,
@@ -3093,7 +3093,7 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 }
 #commerce-backoffice-message-form .fieldset-legend a {
   color: #2698F2;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $headerfont;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
