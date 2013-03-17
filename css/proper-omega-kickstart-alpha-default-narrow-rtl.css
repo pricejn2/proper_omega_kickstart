@@ -13,6 +13,7 @@
 /*******************************************
 * 3.2.2. Content
 *******************************************/
+/* line 17, ../scss/proper-omega-kickstart-alpha-default-narrow-rtl.scss */
 #promotional_banner .promotional_banner_special_offer {
   float: right;
   line-height: 22px;
@@ -26,5 +27,6 @@
 /**********************************************
 * 5.3. Product page
 **********************************************/
+/* line 33, ../scss/proper-omega-kickstart-alpha-default-narrow-rtl.scss */
 .node-product-type .cloud-zoom-container #wrap {
   float: left !important; }

@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
-@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700);
+@import url(//fonts.googleapis.com/css?family=Cantarell:400,700);
 /* Include Default Variables & Mixins */
 /* End Variables & Mixins */
 /**************************************************
@@ -10,6 +9,7 @@
 /**********************************************
 * 2.2. Zone branding
 **********************************************/
+/* line 14, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
 .zone-branding .region-branding .logo-img {
   float: right !important;
   text-align: right !important; }
@@ -17,9 +17,11 @@
 /**
 * Search block
 */
+/* line 22, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
 #block-views-exp-display-products-page {
   float: left !important; }
 
+/* line 25, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
 #block-views-exp-display-products-page .views-exposed-widgets {
   margin-right: 0 !important;
   margin-left: 10px; }
@@ -27,24 +29,30 @@
 /**********************************************
 * 2.3. Zone menu
 **********************************************/
+/* line 32, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
 .navigation {
   /* Main menu */
   /* Secondary menu */ }
+  /* line 34, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
   .navigation .primary-menu ul,
   .navigation .second-menu ul {
     float: right !important; }
+    /* line 38, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
     .navigation .primary-menu ul li.first a,
     .navigation .second-menu ul li.first a {
       border-right: 1px solid #cccccc !important;
       border-left: 0 !important; }
+    /* line 42, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
     .navigation .primary-menu ul li.last a,
     .navigation .second-menu ul li.last a {
       border-left: 1px solid #cccccc !important;
       border-right: 0 !important; }
+  /* line 49, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
   .navigation .primary-menu {
     float: right !important;
     margin-right: 0 !important;
     margin-left: 12px !important; }
+  /* line 55, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
   .navigation .second-menu {
     float: left !important; }
 
@@ -60,6 +68,7 @@
 * 3.2.1. Sidebar first
 *******************************************/
 /* Price range */
+/* line 71, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
 #search-api-ranges-block-slider-view-form label {
   float: left; }
 
@@ -74,6 +83,7 @@
 /**
 * Menu footer navigation
 */
+/* line 88, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
 .section-footer ul.menu li.expanded {
   float: right !important; }
 
@@ -88,6 +98,7 @@
 /**
 * Collection page
 */
+/* line 106, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
 .view-collection-products .view-header .view-collection-products,
 .view-collection-products .view-header .collection-terms,
 .view-collection-taxonomy-term .view-header .view-collection-products,
@@ -102,13 +113,17 @@
 /**
 * Add to cart popin.
 */
+/* line 119, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .added-product-title {
   float: right; }
+/* line 122, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper {
   right: auto !important;
   left: 0 !important; }
+/* line 126, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display {
   float: right !important; }
+  /* line 129, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
   div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-product .content .field-name-field-images {
     clear: right !important;
     float: right !important; }
@@ -120,13 +135,16 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
 * Checkout page
 * Shipping page
 */
+/* line 148, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
 .page-checkout #commerce-checkout-form-checkout fieldset label,
 .page-checkout #commerce-checkout-form-review fieldset label {
   float: right !important; }
+/* line 152, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
 .page-checkout #commerce-checkout-form-checkout fieldset .commerce-customer-profile-copy label,
 .page-checkout #commerce-checkout-form-review fieldset .commerce-customer-profile-copy label {
   float: none !important; }
 
+/* line 159, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
 .page-cart .entity-commerce-product .content .field-name-field-images {
   float: right !important;
   margin-right: 0px !important;
@@ -137,9 +155,11 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
 * 7. Blog
 * --
 **************************************************/
+/* line 170, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
 .page-blog .region-content .view-content .views-row {
   clear: right !important;
   float: right !important; }
+/* line 174, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
 .page-blog .region-content .view-content .views-row-even {
   clear: left !important;
   float: left !important; }
@@ -149,10 +169,12 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
 * 9. User account
 * --
 **************************************************/
+/* line 185, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
 .page-user,
 .page-checkout {
   /* Registration form */
   /* Login form, create an account block */ }
+  /* line 190, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
   .page-user #user_register_form,
   .page-user #user_login_form,
   .page-user .create-account,
@@ -162,21 +184,24 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
   .page-checkout .create-account,
   .page-checkout #user_pass_form {
     float: right !important; }
+  /* line 198, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
   .page-user form#user-register-form .form-item-pass .password-parent .password-strength,
   .page-user form#user-profile-form .form-item-pass .password-parent .password-strength,
   .page-checkout form#user-register-form .form-item-pass .password-parent .password-strength,
   .page-checkout form#user-profile-form .form-item-pass .password-parent .password-strength {
     right: auto !important;
     left: 15px; }
+  /* line 204, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
   .page-user form#user-register-form .form-item-pass .confirm-parent div.password-confirm,
   .page-user form#user-profile-form .form-item-pass .confirm-parent div.password-confirm,
   .page-checkout form#user-register-form .form-item-pass .confirm-parent div.password-confirm,
   .page-checkout form#user-profile-form .form-item-pass .confirm-parent div.password-confirm {
     left: 15px;
     right: auto !important; }
+  /* line 214, ../scss/proper-omega-kickstart-alpha-default-rtl.scss */
   .page-user form#user-login #user_login_form,
   .page-checkout form#user-login #user_login_form {
-    border-left: 1px solid #444 !important;
+    border-left: 1px solid #444444 !important;
     border-right: none !important;
     padding-right: 0;
     padding-left: 20px; }

@@ -2,16 +2,20 @@
 /**********************************************
 * 3.2. Zone content
 **********************************************/
+/* line 6, ../scss/proper-omega-kickstart-alpha-default-wide.scss */
 #block-views-demo-content-slideshow-block-1 {
   /* HP blocks: Slideshow */ }
+  /* line 9, ../scss/proper-omega-kickstart-alpha-default-wide.scss */
   #block-views-demo-content-slideshow-block-1 .bx-wrapper,
   #block-views-demo-content-slideshow-block-1 .bx-wrapper .bx-window {
     height: 838px !important;
     max-height: 838px;
     min-width: 1180px; }
+  /* line 19, ../scss/proper-omega-kickstart-alpha-default-wide.scss */
   #block-views-demo-content-slideshow-block-1 .bx-wrapper ul.event-slider li {
     height: 738px;
     width: 1180px; }
+    /* line 23, ../scss/proper-omega-kickstart-alpha-default-wide.scss */
     #block-views-demo-content-slideshow-block-1 .bx-wrapper ul.event-slider li img {
       overflow: hidden;
       height: 100%;

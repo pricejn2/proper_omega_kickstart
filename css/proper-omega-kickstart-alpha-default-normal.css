@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
-@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700);
+@import url(//fonts.googleapis.com/css?family=Cantarell:400,700);
 /* Include Default Variables & Mixins */
 /* End Variables & Mixins */
 /**************************************************
@@ -13,6 +12,7 @@
 /*******************************************
 * 2.1.1. Region user first
 *******************************************/
+/* line 16, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 .block-menu-user-menu .block-inner {
   float: right;
   margin-right: 10px; }
@@ -23,6 +23,7 @@
 /**
 * Navigation
 */
+/* line 30, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 .navigation .primary-menu .links li,
 .navigation .second-menu .links li {
   font-size: 1em; }
@@ -35,6 +36,7 @@
 /**********************************************
 * 3.2. Zone content
 **********************************************/
+/* line 45, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 .zone-content-wrapper .zone-content .region-content-inner {
   margin-bottom: 10px; }
 
@@ -42,25 +44,33 @@
 * 3.2.1. Sidebar first
 *******************************************/
 /* Price range */
+/* line 56, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 #search-api-ranges-block-slider-view-form .range-box-left .form-item,
 #search-api-ranges-block-slider-view-form .range-box-right .form-item {
   margin-top: 0; }
+/* line 60, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 #search-api-ranges-block-slider-view-form .range-box-left,
 #search-api-ranges-block-slider-view-form .range-box-right {
   position: absolute;
   top: -30px; }
+  /* line 63, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
   #search-api-ranges-block-slider-view-form .range-box-left label,
   #search-api-ranges-block-slider-view-form .range-box-right label {
     display: none; }
+/* line 67, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 #search-api-ranges-block-slider-view-form .range-box-left {
   left: 0; }
+/* line 70, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 #search-api-ranges-block-slider-view-form .range-box-right {
   right: 0; }
+  /* line 72, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
   #search-api-ranges-block-slider-view-form .range-box-right #edit-range-to {
     text-align: right; }
+/* line 76, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 #search-api-ranges-block-slider-view-form .range-slider-box {
   display: block;
   margin-top: 25px; }
+/* line 81, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 #search-api-ranges-block-slider-view-form #edit-range-from,
 #search-api-ranges-block-slider-view-form #edit-range-to {
   background: none;
@@ -69,10 +79,12 @@
   font-weight: 300;
   padding: 0;
   width: auto; }
+/* line 89, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 #search-api-ranges-block-slider-view-form #edit-submit {
   display: none; }
 
 /* Category */
+/* line 94, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 .region-sidebar-first .block-facetapi.field_category .item-list {
   border: 1px solid #d9d9d9;
   height: 220px;
@@ -83,6 +95,7 @@
 * 3.2. Zone content
 **********************************************/
 /* HP blocks: Top advert */
+/* line 105, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 #promotional_banner .promotional_banner_saving {
   display: inline-block;
   width: auto;
@@ -90,46 +103,56 @@
   margin: 10px 0 0 0;
   line-height: 38px; }
 
+/* line 112, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 #promotional_banner .promotional_banner_special_offer {
   top: 15px; }
 
+/* line 116, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 #block-views-demo-content-slideshow-block-1 {
   /* HP blocks: Slideshow */ }
+  /* line 119, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
   #block-views-demo-content-slideshow-block-1 .bx-wrapper,
   #block-views-demo-content-slideshow-block-1 .bx-wrapper .bx-window {
     height: 580px !important;
     max-height: 580px;
     min-width: 940px; }
+  /* line 124, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
   #block-views-demo-content-slideshow-block-1 .bx-wrapper .bx-window {
     overflow: visible !important; }
+  /* line 129, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
   #block-views-demo-content-slideshow-block-1 .bx-wrapper ul.event-slider li {
     height: 480px;
     overflow: visible;
     width: 940px; }
+    /* line 133, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
     #block-views-demo-content-slideshow-block-1 .bx-wrapper ul.event-slider li img {
       overflow: hidden;
       height: 480px;
       width: 940px; }
+  /* line 141, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
   #block-views-demo-content-slideshow-block-1 .views-field-nothing {
     background: #888;
-    border: 1px solid #CCC;
+    border: 1px solid #cccccc;
     color: #ffffff;
     padding-bottom: 5px;
     position: absolute;
     bottom: -100px;
     left: 34%; }
+  /* line 151, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
   #block-views-demo-content-slideshow-block-1 .bx-prev,
   #block-views-demo-content-slideshow-block-1 .bx-next {
     color: #000000;
     background: #EEE;
-    border: 1px solid #CCC;
+    border: 1px solid #cccccc;
     text-decoration: none;
     display: block;
     margin-top: 15px;
     padding-bottom: 5px; }
+    /* line 159, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
     #block-views-demo-content-slideshow-block-1 .bx-prev:hover,
     #block-views-demo-content-slideshow-block-1 .bx-next:hover {
       background: #FFF; }
+  /* line 166, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
   #block-views-demo-content-slideshow-block-1 .views-field-nothing,
   #block-views-demo-content-slideshow-block-1 .bx-prev,
   #block-views-demo-content-slideshow-block-1 .bx-next {
@@ -139,26 +162,29 @@
     text-indent: 0;
     width: 32%;
     margin-right: 2%; }
+    /* line 174, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
     #block-views-demo-content-slideshow-block-1 .views-field-nothing span.field-content,
     #block-views-demo-content-slideshow-block-1 .bx-prev span.field-content,
     #block-views-demo-content-slideshow-block-1 .bx-next span.field-content {
       display: block;
-      font-family: "Open Sans", sans-serif;
+      font-family: "Cantarell", sans-serif;
       font-weight: 300;
       font-size: 21px;
       height: 80px;
       line-height: 28px;
       padding: 10px 25px 0;
       overflow: hidden; }
+      /* line 184, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
       #block-views-demo-content-slideshow-block-1 .views-field-nothing span.field-content em,
       #block-views-demo-content-slideshow-block-1 .bx-prev span.field-content em,
       #block-views-demo-content-slideshow-block-1 .bx-next span.field-content em {
-        font-family: "Open Sans", sans-serif;
+        font-family: "Cantarell", sans-serif;
         font-size: 32px;
         font-style: normal;
         font-weight: 900;
         text-decoration: none;
         text-transform: uppercase; }
+  /* line 195, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
   #block-views-demo-content-slideshow-block-1 .bx-prev {
     margin-left: 0;
     /* LTR */
@@ -168,6 +194,7 @@
     bottom: 0;
     left: 0;
     /* LTR */ }
+  /* line 202, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
   #block-views-demo-content-slideshow-block-1 .bx-next {
     margin-right: 0;
     /* LTR */
@@ -181,6 +208,7 @@
 /**********************************************
 * 3.3. Zone postscript
 **********************************************/
+/* line 215, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 #zone-postscript .view-ad-push .views-row .views-field-field-tagline .field-content,
 #zone-postscript .block-blog-block .views-field-title .field-content {
   font-size: 18px;
@@ -197,6 +225,7 @@
 /**
 * Connect with us
 */
+/* line 231, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 #block-menu-menu-social-connection h2 {
   line-height: inherit;
   padding: 0 0 22px 25px; }
@@ -212,9 +241,11 @@
 /**
 * Collection page
 */
+/* line 248, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 .view-collection-products .view-header .taxonomy-title,
 .view-collection-taxonomy-term .view-header .taxonomy-title {
   font-size: 3em; }
+/* line 251, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 .view-collection-products .view-header .collection-terms .view-content .item-list,
 .view-collection-taxonomy-term .view-header .collection-terms .view-content .item-list {
   display: block;
@@ -226,19 +257,24 @@
 /**
 * Add to cart popin.
 */
+/* line 264, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .added-product-title {
   width: auto; }
+/* line 268, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content {
   margin-left: 130px;
   /* LTR */
   width: 65%; }
+  /* line 272, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
   div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-product .content .field-name-field-images {
     position: absolute;
     left: -115px;
     /* LTR */ }
 
 /* Cloud zoom */
+/* line 285, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 .node-product-type .cloud-zoom-container .cloud-zoom-gallery-thumbs .cloud-zoom-gallery {
   margin: 5px 0; }
+/* line 290, ../scss/proper-omega-kickstart-alpha-default-normal.scss */
 .node-product-type .field-name-field-product form.commerce-add-to-cart label {
   float: left; }

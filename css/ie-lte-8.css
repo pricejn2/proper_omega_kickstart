@@ -1,3 +1,4 @@
+/* line 1, ../scss/ie-lte-8.scss */
 img {
   max-width: inherit;
   width: auto; }
@@ -13,6 +14,7 @@ img {
 /**
 * Collection page
 */
+/* line 17, ../scss/ie-lte-8.scss */
 .view-collection-products .view-header,
 .view-collection-taxonomy-term .view-header {
   height: auto; }
@@ -20,10 +22,12 @@ img {
 /**********************************************
 * 5.2. All products page
 **********************************************/
+/* line 23, ../scss/ie-lte-8.scss */
 .page-products .view-display-products {
   clear: both;
   margin-top: 40px;
   width: 700px; }
+  /* line 28, ../scss/ie-lte-8.scss */
   .page-products .view-display-products li.views-row {
     display: block;
     margin-right: 5px;
@@ -32,8 +36,10 @@ img {
 /**
 * Add to cart popin.
 */
+/* line 39, ../scss/ie-lte-8.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper {
   width: 25%; }
+/* line 43, ../scss/ie-lte-8.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content {
   width: 180px !important; }
 
@@ -41,14 +47,17 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
 * 5.3. Product page
 **********************************************/
 /* Cloud zoom */
+/* line 54, ../scss/ie-lte-8.scss */
 .node-product-type .cloud-zoom-container {
   margin-left: 130px;
   position: relative; }
+  /* line 58, ../scss/ie-lte-8.scss */
   .node-product-type .cloud-zoom-container .cloud-zoom-gallery-thumbs {
     position: absolute;
     top: 0;
     left: -130px;
     width: 120px; }
+    /* line 64, ../scss/ie-lte-8.scss */
     .node-product-type .cloud-zoom-container .cloud-zoom-gallery-thumbs .cloud-zoom-gallery img {
       max-width: none; }
 
@@ -58,28 +67,34 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
 /**
 * Checkout progress
 */
+/* line 76, ../scss/ie-lte-8.scss */
 ol.inline.commerce-checkout-progress li {
   padding-right: 50px;
   padding-left: 25px; }
+  /* line 81, ../scss/ie-lte-8.scss */
   ol.inline.commerce-checkout-progress li:after, ol.inline.commerce-checkout-progress li.active:after {
     background-image: url("../images/bg_checkout_progress_ie.png");
     background-position: right center;
     background-repeat: no-repeat;
     right: -5px; }
+  /* line 87, ../scss/ie-lte-8.scss */
   ol.inline.commerce-checkout-progress li.last:after {
     background-image: url("../images/bg_checkout_progress_ie_last.png");
     background-position: right center;
     background-repeat: no-repeat; }
+  /* line 92, ../scss/ie-lte-8.scss */
   ol.inline.commerce-checkout-progress li.last.active {
     background-image: url("../images/bg_checkout_progress_ie_active_last.png");
     background-position: left center;
     background-repeat: no-repeat;
     left: -25px;
     padding-left: 40px; }
+    /* line 99, ../scss/ie-lte-8.scss */
     ol.inline.commerce-checkout-progress li.last.active:after {
       background-image: url("../images/bg_checkout_progress_ie_last.png");
       background-position: right center;
       background-repeat: no-repeat; }
+  /* line 106, ../scss/ie-lte-8.scss */
   ol.inline.commerce-checkout-progress li.previous:after {
     background-image: url("../images/bg_checkout_progress_ie_visited.png");
     background-position: right center;

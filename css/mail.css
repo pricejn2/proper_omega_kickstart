@@ -1,39 +1,49 @@
+/* line 1, ../scss/mail.scss */
 .message-wrapper {
   width: 800px; }
 
+/* line 6, ../scss/mail.scss */
 .message-wrapper .header,
 .message-wrapper .body {
   padding: 10px; }
 
+/* line 10, ../scss/mail.scss */
 .message-wrapper .header {
   background-color: #FFF;
   color: #000000;
   height: 100px; }
 
+/* line 16, ../scss/mail.scss */
 .message-wrapper .header .logo {
   float: left; }
 
+/* line 20, ../scss/mail.scss */
 .message-wrapper .header .thank-you {
   float: right;
   margin-top: 65px;
   font-size: 25px;
   font-weight: bold; }
 
+/* line 27, ../scss/mail.scss */
 .message-wrapper .body {
-  border: solid 1px #E9E9E9;
+  border: solid 1px #e9e9e9;
   padding: 10px; }
 
+/* line 32, ../scss/mail.scss */
 .message-wrapper .detail {
   color: #b2b2b2;
   padding-bottom: 15px;
   font-size: 18px; }
 
+/* line 38, ../scss/mail.scss */
 .message-wrapper .detail span {
   color: #00a0da; }
 
+/* line 42, ../scss/mail.scss */
 .message-wrapper .view-order-status {
   margin-bottom: 10px; }
 
+/* line 46, ../scss/mail.scss */
 .message-wrapper .view-order-status a {
   background-color: #009bd4;
   width: auto;
@@ -42,9 +52,11 @@
   padding: 10px 30px;
   border-radius: 50px; }
 
+/* line 55, ../scss/mail.scss */
 .message-wrapper .ship-to {
   float: left; }
 
+/* line 61, ../scss/mail.scss */
 .message-wrapper .ship-to .ship-to-title,
 .message-wrapper .ship-method .ship-method-title,
 .message-wrapper .order-summary-wrapper p.items-title {
@@ -52,6 +64,7 @@
   font-size: 20px;
   color: black; }
 
+/* line 71, ../scss/mail.scss */
 .message-wrapper .ship-method .express-delivery,
 .message-wrapper .ship-method p,
 .message-wrapper .ship-to .addressfield-container-inline.name-block,
@@ -60,33 +73,39 @@
   color: #90847c;
   font-size: 17px; }
 
+/* line 79, ../scss/mail.scss */
 .message-wrapper .ship-to .first-name,
 .message-wrapper .ship-to .last-name,
 .message-wrapper .ship-to .name-block,
 .message-wrapper .ship-method .express-delivery {
   font-weight: bold; }
 
+/* line 83, ../scss/mail.scss */
 .message-wrapper .ship-method {
   float: right;
   /* LTR */ }
 
+/* line 88, ../scss/mail.scss */
 .message-wrapper .shipping-wrapper,
 .message-wrapper .order-summary-wrapper {
   clear: both; }
 
+/* line 92, ../scss/mail.scss */
 .message-wrapper .order-summary-wrapper .view-commerce-cart-summary table {
   border: none;
   border-collapse: collapse;
   width: 100%; }
 
+/* line 98, ../scss/mail.scss */
 .message-wrapper .order-summary-wrapper .view-commerce-cart-summary th {
   border: none;
   background: transparent;
-  border-bottom: #AAAAAA solid 1px;
+  border-bottom: #aaaaaa solid 1px;
   text-transform: none;
   font-weight: bold;
   text-align: left; }
 
+/* line 108, ../scss/mail.scss */
 .message-wrapper .order-summary-wrapper .view-commerce-cart-summary tr,
 .message-wrapper .order-summary-wrapper .view-commerce-cart-summary td {
   border: none;
@@ -94,14 +113,17 @@
   padding: 10px;
   text-align: left; }
 
+/* line 115, ../scss/mail.scss */
 .message-wrapper .order-summary-wrapper table.commerce-price-formatted-components {
   width: 25%;
   float: right;
   /* LTR */ }
 
+/* line 120, ../scss/mail.scss */
 .message-wrapper .order-summary-wrapper table.commerce-price-formatted-components td {
   text-align: right;
   /* LTR */ }
 
+/* line 124, ../scss/mail.scss */
 .message-wrapper .question {
   clear: both; }

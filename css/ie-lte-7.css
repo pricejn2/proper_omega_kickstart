@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
-@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700);
+@import url(//fonts.googleapis.com/css?family=Cantarell:400,700);
 /* Include Default Variables & Mixins */
 /* End Variables & Mixins */
 /**************************************************
@@ -7,9 +6,11 @@
 * 1. Global
 * --
 **************************************************/
+/* line 10, ../scss/ie-lte-7.scss */
 img {
   width: auto; }
 
+/* line 13, ../scss/ie-lte-7.scss */
 #messages {
   z-index: 1000;
   /*Fix for z-index stacking*/ }
@@ -22,6 +23,7 @@ img {
 /**********************************************
 * 2.1. Zone user
 **********************************************/
+/* line 24, ../scss/ie-lte-7.scss */
 .zone-user-wrapper {
   width: inherit !important; }
 
@@ -29,6 +31,7 @@ img {
 * 2.1.1. Region user first
 *******************************************/
 /* User menu */
+/* line 31, ../scss/ie-lte-7.scss */
 .block-menu-user-menu .content {
   width: auto; }
 
@@ -38,21 +41,26 @@ img {
 /**
 * Search block
 */
+/* line 40, ../scss/ie-lte-7.scss */
 #block-views-exp-display-products-page .views-exposed-widgets {
   position: relative; }
 
+/* line 43, ../scss/ie-lte-7.scss */
 #block-views-exp-display-products-page .views-exposed-widget {
   padding: 0;
   position: relative;
   left: 0px; }
 
+/* line 48, ../scss/ie-lte-7.scss */
 #block-views-exp-display-products-page #edit-search-api-views-fulltext {
   height: 18px;
   padding: 5px; }
 
+/* line 52, ../scss/ie-lte-7.scss */
 #block-views-exp-display-products-page .views-submit-button {
   position: absolute;
   right: 0; }
+  /* line 55, ../scss/ie-lte-7.scss */
   #block-views-exp-display-products-page .views-submit-button .form-submit {
     float: right;
     width: 24px;
@@ -64,11 +72,13 @@ img {
 /**
 * Navigation
 */
+/* line 71, ../scss/ie-lte-7.scss */
 .navigation .primary-menu ul li,
 .navigation .second-menu ul li,
 .zone-menu .block-menu ul li {
   display: inline;
   float: left; }
+  /* line 75, ../scss/ie-lte-7.scss */
   .navigation .primary-menu ul li a,
   .navigation .second-menu ul li a,
   .zone-menu .block-menu ul li a {
@@ -82,6 +92,7 @@ img {
 * 3. Section content
 * --
 **************************************************/
+/* line 88, ../scss/ie-lte-7.scss */
 .section-content {
   min-height: auto;
   height: auto; }
@@ -90,13 +101,16 @@ img {
 * 3.2.1. Sidebar first
 *******************************************/
 /* Search api facet blocks */
+/* line 96, ../scss/ie-lte-7.scss */
 .region-sidebar-first .block-facetapi {
   margin-left: 5px; }
 
+/* line 99, ../scss/ie-lte-7.scss */
 #search-api-ranges-block-slider-view-form {
   margin-top: 15px; }
 
 /* Category */
+/* line 103, ../scss/ie-lte-7.scss */
 .region-sidebar-first .block-facetapi.field_category .item-list {
   border: none !important;
   height: auto !important;
@@ -114,13 +128,16 @@ img {
 /**
 * Collection page
 */
+/* line 122, ../scss/ie-lte-7.scss */
 .view-collection-products .view-header .view-collection-products,
 .view-collection-taxonomy-term .view-header .collection-terms {
   padding-bottom: 5px; }
 
+/* line 127, ../scss/ie-lte-7.scss */
 .view-collection-products .view-content .item-list .products-per-collection li header,
 .view-collection-taxonomy-term .view-content .item-list .products-per-collection li header {
   display: block !important; }
+/* line 131, ../scss/ie-lte-7.scss */
 .view-collection-products .view-content .item-list .products-per-collection li .field-type-commerce-price .price_prefix p,
 .view-collection-taxonomy-term .view-content .item-list .products-per-collection li .field-type-commerce-price .price_prefix p {
   padding-right: 5px; }
@@ -128,17 +145,21 @@ img {
 /**********************************************
 * 5.2. All products page
 **********************************************/
+/* line 139, ../scss/ie-lte-7.scss */
 .page-products .view-display-products {
   clear: both;
   margin-top: 40px;
   width: 700px; }
+  /* line 145, ../scss/ie-lte-7.scss */
   .page-products .view-display-products ul li.views-row {
     display: block;
     height: auto;
     margin: 0;
     width: 225px; }
+  /* line 151, ../scss/ie-lte-7.scss */
   .page-products .view-display-products ul li header {
     display: block; }
+  /* line 157, ../scss/ie-lte-7.scss */
   .page-products .view-display-products ul li .content .field-name-commerce-price .price_prefix p {
     padding-right: 5px; }
 
@@ -148,9 +169,11 @@ img {
 /**
 * Add to cart popin.
 */
+/* line 170, ../scss/ie-lte-7.scss */
 div.commerce_add_to_cart_confirmation_overlay {
   display: none; }
 
+/* line 176, ../scss/ie-lte-7.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content {
   width: 180px !important; }
 
@@ -160,6 +183,7 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
 /**
 * Checkout progress
 */
+/* line 188, ../scss/ie-lte-7.scss */
 ol.inline.commerce-checkout-progress li {
   background-image: url("../images/bg_checkout_progress_ie.png");
   background-position: right center;
@@ -172,12 +196,15 @@ ol.inline.commerce-checkout-progress li {
   right: -5px;
   /* LTR */ }
 
+/* line 196, ../scss/ie-lte-7.scss */
 ol.inline.commerce-checkout-progress li.active {
   background-image: url("../images/bg_checkout_progress_ie.png"); }
 
+/* line 199, ../scss/ie-lte-7.scss */
 ol.inline.commerce-checkout-progress li.previous {
   background-image: url("../images/bg_checkout_progress_ie_visited.png"); }
 
+/* line 202, ../scss/ie-lte-7.scss */
 ol.inline.commerce-checkout-progress li.last {
   background-image: url("../images/bg_checkout_progress_ie_last.png"); }
 
@@ -186,6 +213,7 @@ ol.inline.commerce-checkout-progress li.last {
 * 9. User account
 * --
 **************************************************/
+/* line 212, ../scss/ie-lte-7.scss */
 .page-user .section-footer,
 .page-checkout .section-footer {
   /**
@@ -202,6 +230,7 @@ ol.inline.commerce-checkout-progress li.last {
    * Include this rule to trigger hasLayout and contain floats.
    */
   *zoom: 1; }
+  /* line 12, ../scss/mixins.scss */
   .page-user .section-footer:before, .page-user .section-footer.cf:after,
   .page-checkout .section-footer:before,
   .page-checkout .section-footer.cf:after {
@@ -209,11 +238,13 @@ ol.inline.commerce-checkout-progress li.last {
     /* 1 */
     display: table;
     /* 2 */ }
+  /* line 17, ../scss/mixins.scss */
   .page-user .section-footer:after,
   .page-checkout .section-footer:after {
     clear: both; }
 
 /* Address book */
+/* line 220, ../scss/ie-lte-7.scss */
 .page-user-addressbook .field-name-commerce-customer-address .addressfield-container-inline > div.form-item {
   float: none;
   margin: 0; }

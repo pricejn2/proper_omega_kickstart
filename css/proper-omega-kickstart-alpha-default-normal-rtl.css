@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
-@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700);
+@import url(//fonts.googleapis.com/css?family=Cantarell:400,700);
 /* Include Default Variables & Mixins */
 /* End Variables & Mixins */
 /**************************************************
@@ -13,6 +12,7 @@
 /*******************************************
 * 2.1.1. Region user first
 *******************************************/
+/* line 16, ../scss/proper-omega-kickstart-alpha-default-normal-rtl.scss */
 .block-menu-user-menu .block-inner {
   float: right;
   margin-right: 10px; }
@@ -26,6 +26,7 @@
 * 3.2.1. Sidebar first
 *******************************************/
 /* Price range */
+/* line 32, ../scss/proper-omega-kickstart-alpha-default-normal-rtl.scss */
 #search-api-ranges-block-slider-view-form .range-box-left #edit-range-from {
   text-align: left;
   /* RTL */ }
@@ -33,11 +34,14 @@
 /**********************************************
 * 3.2. Zone content
 **********************************************/
+/* line 40, ../scss/proper-omega-kickstart-alpha-default-normal-rtl.scss */
 #block-views-demo-content-slideshow-block-1 {
   /* HP blocks: Slideshow */ }
+  /* line 43, ../scss/proper-omega-kickstart-alpha-default-normal-rtl.scss */
   #block-views-demo-content-slideshow-block-1 .views-field-nothing {
     bottom: -100px;
     left: 34%; }
+  /* line 47, ../scss/proper-omega-kickstart-alpha-default-normal-rtl.scss */
   #block-views-demo-content-slideshow-block-1 .bx-prev {
     margin-right: 0;
     /* RTL */
@@ -46,6 +50,7 @@
     right: 0;
     /* RTL */
     left: auto !important; }
+  /* line 54, ../scss/proper-omega-kickstart-alpha-default-normal-rtl.scss */
   #block-views-demo-content-slideshow-block-1 .bx-next {
     margin-right: auto;
     margin-left: 0;
@@ -58,6 +63,7 @@
 /**********************************************
 * 3.3. Zone postscript
 **********************************************/
+/* line 69, ../scss/proper-omega-kickstart-alpha-default-normal-rtl.scss */
 #zone-postscript .view-ad-push .views-row .views-field-field-tagline .field-content,
 #zone-postscript .block-blog-block .views-field-title .field-content {
   font-size: 18px;
@@ -74,6 +80,7 @@
 /**
 * Connect with us
 */
+/* line 85, ../scss/proper-omega-kickstart-alpha-default-normal-rtl.scss */
 #block-menu-menu-social-connection h2 {
   line-height: inherit;
   padding: 0 25px 22px 0; }
@@ -89,9 +96,11 @@
 /**
 * Collection page
 */
+/* line 102, ../scss/proper-omega-kickstart-alpha-default-normal-rtl.scss */
 .view-collection-products .view-header .taxonomy-title,
 .view-collection-taxonomy-term .view-header .taxonomy-title {
   font-size: 3em; }
+/* line 105, ../scss/proper-omega-kickstart-alpha-default-normal-rtl.scss */
 .view-collection-products .view-header .collection-terms .view-content .item-list,
 .view-collection-taxonomy-term .view-header .collection-terms .view-content .item-list {
   display: block;
@@ -103,17 +112,22 @@
 /**
 * Add to cart popin.
 */
+/* line 118, ../scss/proper-omega-kickstart-alpha-default-normal-rtl.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .added-product-title {
   float: right; }
+/* line 125, ../scss/proper-omega-kickstart-alpha-default-normal-rtl.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content {
   margin-left: 0px;
   margin-right: 130px; }
+  /* line 130, ../scss/proper-omega-kickstart-alpha-default-normal-rtl.scss */
   div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-product .content .field-name-field-images {
     left: auto;
     right: -115px; }
 
 /* Cloud zoom */
+/* line 143, ../scss/proper-omega-kickstart-alpha-default-normal-rtl.scss */
 .node-product-type .cloud-zoom-container .cloud-zoom-gallery-thumbs {
   float: none !important; }
+/* line 149, ../scss/proper-omega-kickstart-alpha-default-normal-rtl.scss */
 .node-product-type .field-name-field-product form.commerce-add-to-cart label {
   float: right; }

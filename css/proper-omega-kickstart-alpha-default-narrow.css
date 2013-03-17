@@ -14,23 +14,28 @@
 * 3.2.1. Sidebar first
 *******************************************/
 /* Price range */
+/* line 18, ../scss/proper-omega-kickstart-alpha-default-narrow.scss */
 #search-api-ranges-block-slider-view-form label {
   float: none; }
 
 /*******************************************
 * 3.2.2. Content
 *******************************************/
+/* line 24, ../scss/proper-omega-kickstart-alpha-default-narrow.scss */
 #promotional_banner .promotional_banner_special_offer {
   float: right;
   /* LTR */
   line-height: 22px;
   margin-top: 4px; }
 
+/* line 30, ../scss/proper-omega-kickstart-alpha-default-narrow.scss */
 #block-views-demo-content-slideshow-block-1 {
   /* HP blocks: Slideshow */ }
+  /* line 33, ../scss/proper-omega-kickstart-alpha-default-narrow.scss */
   #block-views-demo-content-slideshow-block-1 .bx-wrapper,
   #block-views-demo-content-slideshow-block-1 .bx-wrapper .bx-window {
     padding-bottom: 0; }
+  /* line 38, ../scss/proper-omega-kickstart-alpha-default-narrow.scss */
   #block-views-demo-content-slideshow-block-1 .bx-wrapper ul.event-slider {
     /*li {
       min-height: 168px;
@@ -41,6 +46,7 @@
       width: 700px;
       max-width: 940px;
     }*/ }
+    /* line 41, ../scss/proper-omega-kickstart-alpha-default-narrow.scss */
     #block-views-demo-content-slideshow-block-1 .bx-wrapper ul.event-slider li {
       height: 357px;
       width: 700px; }
@@ -53,6 +59,7 @@
 /**********************************************
 * 5.1. Search & Collection page
 **********************************************/
+/* line 66, ../scss/proper-omega-kickstart-alpha-default-narrow.scss */
 .view-collection-products .view-header .collection-terms .view-content .item-list,
 .view-collection-taxonomy-term .view-header .collection-terms .view-content .item-list {
   display: block;
@@ -64,29 +71,36 @@
 /**
 * Add to cart popin.
 */
+/* line 77, ../scss/proper-omega-kickstart-alpha-default-narrow.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .added-product-title {
   float: left;
   /* LTR */
   width: 180px; }
+/* line 81, ../scss/proper-omega-kickstart-alpha-default-narrow.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper {
   height: 100%;
   position: absolute;
   right: 0;
   /* LTR */ }
+/* line 87, ../scss/proper-omega-kickstart-alpha-default-narrow.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display {
   float: left;
   /* LTR */ }
+  /* line 90, ../scss/proper-omega-kickstart-alpha-default-narrow.scss */
   div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-product .content .field-name-field-images {
     clear: left;
     /* LTR */
     float: left;
     /* LTR */ }
 
+/* line 99, ../scss/proper-omega-kickstart-alpha-default-narrow.scss */
 .node-product-type .cloud-zoom-container #wrap {
   float: right !important;
   /* LTR */ }
+/* line 102, ../scss/proper-omega-kickstart-alpha-default-narrow.scss */
 .node-product-type .cloud-zoom-container .cloud-zoom-gallery-thumbs {
   clear: none;
   float: none !important; }
+  /* line 105, ../scss/proper-omega-kickstart-alpha-default-narrow.scss */
   .node-product-type .cloud-zoom-container .cloud-zoom-gallery-thumbs .cloud-zoom-gallery {
     margin: 5px; }

@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
-@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700);
+@import url(//fonts.googleapis.com/css?family=Cantarell:400,700);
 /* Include Default Variables & Mixins */
 /* End Variables & Mixins */
 /**************************************************
@@ -10,6 +9,7 @@
 /**********************************************
 * 2.1. Zone user
 **********************************************/
+/* line 13, ../scss/proper-omega-kickstart-alpha-default.scss */
 .zone-user-wrapper {
   position: fixed;
   z-index: 200; }
@@ -17,17 +17,21 @@
 /*******************************************
 * 2.1.2. Region user second
 *******************************************/
+/* line 20, ../scss/proper-omega-kickstart-alpha-default.scss */
 #region-user-second {
   background-color: transparent; }
 
+/* line 23, ../scss/proper-omega-kickstart-alpha-default.scss */
 .block-views-shopping-cart-block {
   margin: 0; }
 
 /**********************************************
 * 2.2. Zone branding
 **********************************************/
+/* line 29, ../scss/proper-omega-kickstart-alpha-default.scss */
 .zone-branding .region-branding {
   clear: both; }
+  /* line 32, ../scss/proper-omega-kickstart-alpha-default.scss */
   .zone-branding .region-branding .logo-img {
     float: left;
     /* LTR */
@@ -37,12 +41,14 @@
 /**
 * Search block
 */
+/* line 40, ../scss/proper-omega-kickstart-alpha-default.scss */
 #block-views-exp-display-products-page {
   float: right;
   /* LTR */
   padding-top: 10px;
   margin-bottom: 10px; }
 
+/* line 45, ../scss/proper-omega-kickstart-alpha-default.scss */
 #block-views-exp-display-products-page .views-exposed-widgets {
   position: relative;
   width: 300px;
@@ -54,9 +60,11 @@
 /**********************************************
 * 2.3. Zone menu
 **********************************************/
+/* line 55, ../scss/proper-omega-kickstart-alpha-default.scss */
 .menu-toggle {
   display: none; }
 
+/* line 59, ../scss/proper-omega-kickstart-alpha-default.scss */
 .navigation {
   background: transparent;
   display: block !important;
@@ -64,8 +72,10 @@
   padding-bottom: 0;
   /* Main menu */
   /* Secondary menu */ }
+  /* line 65, ../scss/proper-omega-kickstart-alpha-default.scss */
   .navigation h2 {
     display: none; }
+  /* line 69, ../scss/proper-omega-kickstart-alpha-default.scss */
   .navigation .primary-menu ul,
   .navigation .second-menu ul {
     display: block;
@@ -73,29 +83,35 @@
     /* LTR */
     margin: 0;
     width: 100%; }
+    /* line 75, ../scss/proper-omega-kickstart-alpha-default.scss */
     .navigation .primary-menu ul li,
     .navigation .second-menu ul li {
       float: inherit;
       font-size: 0.8em;
       width: auto; }
+      /* line 80, ../scss/proper-omega-kickstart-alpha-default.scss */
       .navigation .primary-menu ul li a,
       .navigation .second-menu ul li a {
         display: inline;
         border-left-width: 0;
         border-right-width: 0; }
+        /* line 85, ../scss/proper-omega-kickstart-alpha-default.scss */
         .navigation .primary-menu ul li a.active, .navigation .primary-menu ul li a:hover,
         .navigation .second-menu ul li a.active,
         .navigation .second-menu ul li a:hover {
           border-left-width: 0;
           border-right-width: 0; }
+      /* line 91, ../scss/proper-omega-kickstart-alpha-default.scss */
       .navigation .primary-menu ul li.first a,
       .navigation .second-menu ul li.first a {
         border-left: 1px solid #cccccc;
         /* LTR */ }
+      /* line 94, ../scss/proper-omega-kickstart-alpha-default.scss */
       .navigation .primary-menu ul li.last a,
       .navigation .second-menu ul li.last a {
         border-right: 1px solid #cccccc;
         /* LTR */ }
+  /* line 100, ../scss/proper-omega-kickstart-alpha-default.scss */
   .navigation .primary-menu {
     float: left;
     /* LTR */
@@ -103,26 +119,33 @@
     /* LTR */
     margin-left: 0;
     /* LTR */ }
+  /* line 106, ../scss/proper-omega-kickstart-alpha-default.scss */
   .navigation .second-menu {
     clear: inherit;
     float: right;
     /* LTR */
     margin-right: 0; }
 
+/* line 116, ../scss/proper-omega-kickstart-alpha-default.scss */
 .zone-menu .block-menu h2.block-title {
   margin-bottom: 1em; }
+/* line 120, ../scss/proper-omega-kickstart-alpha-default.scss */
 .zone-menu .block-menu ul.menu li {
   font-size: 0.8em;
   width: auto; }
+  /* line 124, ../scss/proper-omega-kickstart-alpha-default.scss */
   .zone-menu .block-menu ul.menu li a {
     display: inline;
     border-left-width: 0;
     border-right-width: 0; }
+    /* line 129, ../scss/proper-omega-kickstart-alpha-default.scss */
     .zone-menu .block-menu ul.menu li a.active, .zone-menu .block-menu ul.menu li a:hover {
       border-left-width: 0;
       border-right-width: 0; }
+  /* line 135, ../scss/proper-omega-kickstart-alpha-default.scss */
   .zone-menu .block-menu ul.menu li.first a {
     border-left: 1px solid #cccccc; }
+  /* line 138, ../scss/proper-omega-kickstart-alpha-default.scss */
   .zone-menu .block-menu ul.menu li.last a {
     border-right: 1px solid #cccccc; }
 
@@ -138,21 +161,26 @@
 * 3.2.1. Sidebar first
 *******************************************/
 /* Price range */
+/* line 157, ../scss/proper-omega-kickstart-alpha-default.scss */
 #search-api-ranges-block-slider-view-form .range-slider-box {
   margin: 0 auto;
   width: 90%; }
 
+/* line 161, ../scss/proper-omega-kickstart-alpha-default.scss */
 #search-api-ranges-block-slider-view-form .range-box {
   float: inherit; }
 
+/* line 164, ../scss/proper-omega-kickstart-alpha-default.scss */
 #search-api-ranges-block-slider-view-form label {
   float: left;
   /* LTR */ }
 
+/* line 168, ../scss/proper-omega-kickstart-alpha-default.scss */
 #search-api-ranges-block-slider-view-form #edit-range-from,
 #search-api-ranges-block-slider-view-form #edit-range-to {
   float: inherit; }
 
+/* line 171, ../scss/proper-omega-kickstart-alpha-default.scss */
 #search-api-ranges-block-slider-view-form #edit-submit {
   margin-top: 0; }
 
@@ -162,12 +190,15 @@
 /**
 * Blocks
 */
+/* line 180, ../scss/proper-omega-kickstart-alpha-default.scss */
 #block-views-demo-content-slideshow-block-1 {
   /* HP blocks: Slideshow */ }
+  /* line 183, ../scss/proper-omega-kickstart-alpha-default.scss */
   #block-views-demo-content-slideshow-block-1 .bx-wrapper,
   #block-views-demo-content-slideshow-block-1 .bx-wrapper .bx-window {
     /*max-height: 168px;
     width: 100% !important;*/ }
+  /* line 192, ../scss/proper-omega-kickstart-alpha-default.scss */
   #block-views-demo-content-slideshow-block-1 .bx-wrapper ul.event-slider li {
     height: 168px;
     margin: 0 auto;
@@ -177,36 +208,45 @@
         height: auto;
         width: 100%;
       }*/ }
+    /* line 196, ../scss/proper-omega-kickstart-alpha-default.scss */
     #block-views-demo-content-slideshow-block-1 .bx-wrapper ul.event-slider li img {
       overflow: hidden; }
 
 /**********************************************
 * 3.3. Zone postscript
 **********************************************/
+/* line 210, ../scss/proper-omega-kickstart-alpha-default.scss */
 .zone-postscript .grid-8 {
   margin: 0 10px;
   width: inherit; }
 
+/* line 214, ../scss/proper-omega-kickstart-alpha-default.scss */
 #zone-postscript {
   /* Adverts blocks */ }
+  /* line 217, ../scss/proper-omega-kickstart-alpha-default.scss */
   #zone-postscript .view-ad-push .views-row,
   #zone-postscript .block-blog-block .block-inner {
     position: relative; }
+    /* line 219, ../scss/proper-omega-kickstart-alpha-default.scss */
     #zone-postscript .view-ad-push .views-row img,
     #zone-postscript .block-blog-block .block-inner img {
       height: auto;
       max-width: 100%; }
+  /* line 225, ../scss/proper-omega-kickstart-alpha-default.scss */
   #zone-postscript .view-ad-push .views-row .views-field-field-tagline,
   #zone-postscript .block-blog-block .block-inner .content .views-field-title {
     position: absolute;
     bottom: 10%;
     left: 7%;
     width: 86%; }
+    /* line 230, ../scss/proper-omega-kickstart-alpha-default.scss */
     #zone-postscript .view-ad-push .views-row .views-field-field-tagline a,
     #zone-postscript .block-blog-block .block-inner .content .views-field-title a {
       border: 0; }
+  /* line 235, ../scss/proper-omega-kickstart-alpha-default.scss */
   #zone-postscript .block-blog-block .block-inner .block-title {
     display: block; }
+  /* line 241, ../scss/proper-omega-kickstart-alpha-default.scss */
   #zone-postscript .view-ad-push .views-row .views-field-field-tagline .field-content a,
   #zone-postscript .block-blog-block .views-field-title .field-content a {
     min-height: 60px;
@@ -223,6 +263,7 @@
 /**
 * Menu footer navigation
 */
+/* line 260, ../scss/proper-omega-kickstart-alpha-default.scss */
 .section-footer ul.menu li.expanded {
   display: inline;
   float: left;
@@ -231,6 +272,7 @@
 /**********************************************
 * 4.2. Zone footer2
 **********************************************/
+/* line 268, ../scss/proper-omega-kickstart-alpha-default.scss */
 #block-menu-menu-payment-methods {
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -248,12 +290,15 @@
 /**
 * Collection page
 */
+/* line 283, ../scss/proper-omega-kickstart-alpha-default.scss */
 .view-collection-products .view-header,
 .view-collection-taxonomy-term .view-header {
   background-size: cover; }
+  /* line 285, ../scss/proper-omega-kickstart-alpha-default.scss */
   .view-collection-products .view-header .taxonomy-title,
   .view-collection-taxonomy-term .view-header .taxonomy-title {
     position: relative; }
+  /* line 289, ../scss/proper-omega-kickstart-alpha-default.scss */
   .view-collection-products .view-header .view-collection-products,
   .view-collection-products .view-header .collection-terms,
   .view-collection-taxonomy-term .view-header .view-collection-products,
@@ -268,38 +313,47 @@
 /**
 * Add to cart popin.
 */
+/* line 301, ../scss/proper-omega-kickstart-alpha-default.scss */
 .view-confirm-message-product-display {
   clear: both;
   float: none;
   width: auto; }
 
+/* line 308, ../scss/proper-omega-kickstart-alpha-default.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .added-product-title {
   float: left;
   /* LTR */
   width: 180px; }
+/* line 312, ../scss/proper-omega-kickstart-alpha-default.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper {
   height: 100%;
   position: absolute;
   right: 0;
   /* LTR */ }
+/* line 318, ../scss/proper-omega-kickstart-alpha-default.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display {
   float: left;
   /* LTR */
   padding-bottom: 20px; }
+  /* line 324, ../scss/proper-omega-kickstart-alpha-default.scss */
   div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-product .content .field-name-field-images {
     position: relative;
     left: 0; }
 
 /* Product details */
+/* line 333, ../scss/proper-omega-kickstart-alpha-default.scss */
 .node-product-type {
   /* Cloud zoom */ }
+  /* line 338, ../scss/proper-omega-kickstart-alpha-default.scss */
   .node-product-type .cloud-zoom-container .cloud-zoom-big,
   .node-product-type .cloud-zoom-container .mousetrap,
   .node-product-type .cloud-zoom-container .cloud-zoom-lens {
     display: inherit !important; }
+  /* line 342, ../scss/proper-omega-kickstart-alpha-default.scss */
   .node-product-type .field-name-field-product form.commerce-add-to-cart label {
     float: none; }
 
+/* line 346, ../scss/proper-omega-kickstart-alpha-default.scss */
 .service-links {
   width: auto; }
 
@@ -310,16 +364,19 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
 * Checkout page
 * Shipping page
 */
+/* line 361, ../scss/proper-omega-kickstart-alpha-default.scss */
 .page-checkout #commerce-checkout-form-checkout fieldset label,
 .page-checkout #commerce-checkout-form-review fieldset label {
   float: left;
   /* LTR */
   width: 20%; }
+/* line 366, ../scss/proper-omega-kickstart-alpha-default.scss */
 .page-checkout #commerce-checkout-form-checkout fieldset .commerce-customer-profile-copy label,
 .page-checkout #commerce-checkout-form-review fieldset .commerce-customer-profile-copy label {
   float: none;
   width: 100%; }
 
+/* line 374, ../scss/proper-omega-kickstart-alpha-default.scss */
 .page-cart .entity-commerce-product .content .field-name-field-images {
   display: inline;
   float: left;
@@ -330,10 +387,12 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
 * 7. Blog
 * --
 **************************************************/
+/* line 385, ../scss/proper-omega-kickstart-alpha-default.scss */
 .page-blog .region-content .view-content .views-row {
   clear: left;
   float: left;
   width: 49%; }
+/* line 390, ../scss/proper-omega-kickstart-alpha-default.scss */
 .page-blog .region-content .view-content .views-row-even {
   clear: right;
   float: right; }
@@ -343,11 +402,13 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
 * 9. User account
 * --
 **************************************************/
+/* line 401, ../scss/proper-omega-kickstart-alpha-default.scss */
 .page-user,
 .page-checkout {
   /* Registration form */
   /* Login form, create an account block */
   /* User home */ }
+  /* line 406, ../scss/proper-omega-kickstart-alpha-default.scss */
   .page-user #user_register_form,
   .page-user #user_login_form,
   .page-user .create-account,
@@ -359,17 +420,20 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
     clear: none;
     float: left;
     width: 45%; }
+  /* line 414, ../scss/proper-omega-kickstart-alpha-default.scss */
   .page-user form#user-register-form .form-item-pass,
   .page-user form#user-profile-form .form-item-pass,
   .page-checkout form#user-register-form .form-item-pass,
   .page-checkout form#user-profile-form .form-item-pass {
     margin-bottom: auto; }
+    /* line 416, ../scss/proper-omega-kickstart-alpha-default.scss */
     .page-user form#user-register-form .form-item-pass .password-parent,
     .page-user form#user-profile-form .form-item-pass .password-parent,
     .page-checkout form#user-register-form .form-item-pass .password-parent,
     .page-checkout form#user-profile-form .form-item-pass .password-parent {
       position: relative;
       width: 36.3em; }
+      /* line 419, ../scss/proper-omega-kickstart-alpha-default.scss */
       .page-user form#user-register-form .form-item-pass .password-parent .password-strength,
       .page-user form#user-profile-form .form-item-pass .password-parent .password-strength,
       .page-checkout form#user-register-form .form-item-pass .password-parent .password-strength,
@@ -378,12 +442,14 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
         right: 15px;
         bottom: -12px;
         width: 17em; }
+    /* line 426, ../scss/proper-omega-kickstart-alpha-default.scss */
     .page-user form#user-register-form .form-item-pass .confirm-parent,
     .page-user form#user-profile-form .form-item-pass .confirm-parent,
     .page-checkout form#user-register-form .form-item-pass .confirm-parent,
     .page-checkout form#user-profile-form .form-item-pass .confirm-parent {
       position: relative;
       width: 36.3em; }
+      /* line 429, ../scss/proper-omega-kickstart-alpha-default.scss */
       .page-user form#user-register-form .form-item-pass .confirm-parent div.password-confirm,
       .page-user form#user-profile-form .form-item-pass .confirm-parent div.password-confirm,
       .page-checkout form#user-register-form .form-item-pass .confirm-parent div.password-confirm,
@@ -391,11 +457,13 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
         right: 15px;
         bottom: 8px;
         width: 17em; }
+    /* line 435, ../scss/proper-omega-kickstart-alpha-default.scss */
     .page-user form#user-register-form .form-item-pass .password-suggestions,
     .page-user form#user-profile-form .form-item-pass .password-suggestions,
     .page-checkout form#user-register-form .form-item-pass .password-suggestions,
     .page-checkout form#user-profile-form .form-item-pass .password-suggestions {
       width: 38.5em; }
+  /* line 439, ../scss/proper-omega-kickstart-alpha-default.scss */
   .page-user form#user-register-form .form-actions,
   .page-user form#user-profile-form .form-actions,
   .page-checkout form#user-register-form .form-actions,
@@ -404,24 +472,29 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
     margin-top: 0;
     margin-bottom: 100px;
     width: 70%; }
+  /* line 446, ../scss/proper-omega-kickstart-alpha-default.scss */
   .page-user #user_pass_form,
   .page-checkout #user_pass_form {
     width: auto; }
+  /* line 452, ../scss/proper-omega-kickstart-alpha-default.scss */
   .page-user form#user-login #user_login_form,
   .page-checkout form#user-login #user_login_form {
     border: 0;
-    border-right: 1px solid #444;
+    border-right: 1px solid #444444;
     padding-right: 20px;
     padding-bottom: 0; }
+  /* line 458, ../scss/proper-omega-kickstart-alpha-default.scss */
   .page-user form#user-login .create-account,
   .page-checkout form#user-login .create-account {
     margin: 0;
     padding: 0 20px 20px 20px; }
+  /* line 467, ../scss/proper-omega-kickstart-alpha-default.scss */
   .page-user .profile ul.user-information li,
   .page-checkout .profile ul.user-information li {
     border-bottom: 0;
     width: 33%; }
 
 /* Address book */
+/* line 477, ../scss/proper-omega-kickstart-alpha-default.scss */
 .page-user-addressbook .view-commerce-addressbook td {
   display: table-cell; }
