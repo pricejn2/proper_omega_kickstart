@@ -10,19 +10,11 @@
 /**********************************************
 * 2.2. Zone branding
 **********************************************/
-.zone-branding .region-branding  #block-superfish-1 {
-  float:right;
-  position:relative;
-  left:-50%;
-  text-align:left;
-    ul {
-	  position:relative;
-	  left:50%;
-	}
-	li {
-	  float:left;
-	  position:relative;
-	}
+.zone-branding .region-branding {  
+  #block-superfish-1 {
+    float: right; 
+    text-align: right;
+  }
 }
 /**************************************************
 * --
