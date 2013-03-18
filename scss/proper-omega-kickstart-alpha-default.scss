@@ -34,10 +34,23 @@
     text-align: left; /* LTR */
   }
   
-  #block-block-5,
-  #block-superfish-1  {
+  #block-block-5  {
     float: right; 
     text-align: right;
+  }
+  
+  #block-superfish-1  {
+    left: 0px; 
+	float: right; 
+    text-align: right;
+	  ul#superfish-1 {
+	    position: relative;
+	    left: 0px;
+	  }
+	  li {
+	    float: left;
+	    position: relative;
+	  }
   }
 }
 /**
