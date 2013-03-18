@@ -36,6 +36,7 @@
   5.4. Checkout process
 6. Kickstart specific
   6.1. Homepage elements
+  6.2. Toolbar styles
 7. Blog
 8. Comments
 9. User account
@@ -2463,6 +2464,15 @@ ol.inline.commerce-checkout-progress {
 .front .region-content-inner {
   min-height: 100%;
   padding: 0;
+}
+/**********************************************
+* 6.2. Toolbar styles
+**********************************************/
+body.toolbar {
+  text-transform: none;
+	#toolbar-home a span {
+	  background: transparent url("../../../files/images/head_foot_03.png") no-repeat 0 0;
+	}
 }
 /**************************************************
 * --
