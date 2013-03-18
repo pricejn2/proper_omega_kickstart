@@ -154,7 +154,7 @@ a:link, a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: #000000;
+  color: $linkcolor;
 }
 h1#page-title {
   font-size: 28px;
@@ -224,6 +224,30 @@ select {
     }
   }
 }
+
+/* Superfish menus */
+.sf-menu.sf-style-white {
+	li {
+	  background: $mainmenuitembg;
+	}
+	a {
+      background-color: $mainmenuitembg;
+      border: $mainmenuitemborder;
+      color: $mainmenulinkcolor;
+	  
+	  &.active,
+      &:hover {
+        background-color: $mainmenuitembghover;
+        border: $mainmenuitemborderhover;
+	  }
+	  &.active {
+        color: $mainmenuitemfontactive;
+      }
+      &:hover {
+        color: $mainmenuitemfonthover;
+      }
+	}
+}
 /**************************************************
 * --
 * 2. Section header
@@ -284,8 +308,8 @@ select {
         }
         &.active:hover,
         &:hover {
-          color: $color2;
           text-decoration: underline;
+		  color: $linkcolor;
         }
       }
     }
@@ -398,6 +422,7 @@ select {
               font-weight: 700;
               &:hover {
                 text-decoration: underline;
+				color: $linkcolor;
               }
             }
           }
@@ -470,8 +495,9 @@ select {
 /**
 * Main menu
 */
-ul.superfish-1 {
+ul#superfish-1 {
   float: right;
+  text-transform: uppercase;
 }
 /**********************************************
 * 2.3. Zone menu
@@ -494,6 +520,7 @@ ul.superfish-1 {
 
   &:hover {
     background: #777;
+	color: $linkcolor;
   }
 
   .toggle-help {
@@ -557,6 +584,7 @@ ul.superfish-1 {
           text-decoration: none;
           &:hover {
             text-decoration: none;
+			color: $linkcolor;
           }
         }
       }
@@ -568,8 +596,7 @@ ul.superfish-1 {
       background-color: $mainmenuitembg;
       border: $mainmenuitemborder;
       color: $mainmenulinkcolor;
-      text-transform: capitalize;
-
+      
       &.active,
       &:hover {
         background-color: $mainmenuitembghover;
@@ -738,6 +765,7 @@ ul.superfish-1 {
     text-decoration: none;
     &:hover {
       text-decoration: underline;
+	  color: $linkcolor;
     }
   }
 }
@@ -792,6 +820,7 @@ ul.superfish-1 {
         text-decoration: none;
         &:hover {
           text-decoration: underline;
+		  color: $linkcolor;
         }
         &.facetapi-active {
           background-image: url("../images/btn_close.png");
@@ -1100,13 +1129,15 @@ ul.superfish-1 {
           font-weight: normal;
 
           &.active {
-            color: #000;
+            color: $linkcolor;
             &:hover {
               text-decoration: underline;
+			  color: $linkcolor;
             }
           }
           &:hover {
             text-decoration: underline;
+			color: $linkcolor;
           }
         }
       }
@@ -1139,6 +1170,7 @@ ul.superfish-1 {
         background-color: #cecece;
         @include rounded-corners(4px);
         cursor: pointer;
+		color: $linkcolor;
       }
       span,
       a {
@@ -1320,7 +1352,7 @@ body.activebar-container .zone-footer2-wrapper {
             &:hover {
               background-color: #FFFFFF;
               border: 1px solid #cecece;
-              color: #000000;
+              color: $linkcolor;
             }
           }
         }
@@ -1770,6 +1802,7 @@ div.messages.commerce-add-to-cart-confirmation {
       &:hover {
         cursor: pointer;
         text-decoration: underline;
+		color: $linkcolor;
       }
     }
     .read-more a {
@@ -1863,6 +1896,7 @@ div.messages.commerce-add-to-cart-confirmation {
 
         &:hover {
           cursor: pointer;
+		  color: $linkcolor;
         }
       }
     }
@@ -2247,6 +2281,7 @@ ol.inline.commerce-checkout-progress {
     &:hover .option {
       background-color: #ececec;
       cursor: pointer;
+	  color: $linkcolor;
     }
   }
 }
@@ -2745,6 +2780,7 @@ article.comment {
     margin-left: -1px;
     &:hover {
       background-color: transparent;
+	  color: $linkcolor;
     }
     a {
       color: #ff2424;
@@ -2799,6 +2835,7 @@ article.comment {
       padding: 10px 15px;
       &:hover {
         background: #60aa20;
+		color: $linkcolor;
       }
     }
   }
@@ -2886,8 +2923,8 @@ article.comment {
       .login-password {
         color: $color1;
         &:hover {
-          color: $color1;
           text-decoration: underline;
+		  color: $linkcolor;
         }
       }
     }
@@ -2920,6 +2957,7 @@ article.comment {
     padding: 15px 20px;
     &:hover {
       background: $color1;
+	  color: $linkcolor;
     }
   }
   a.login-register {
@@ -2978,6 +3016,7 @@ article.comment {
             &:hover {
               cursor: pointer;
               text-decoration: underline;
+			  color: $linkcolor;
             }
           }
           .view-commerce-backoffice-user-orders td {

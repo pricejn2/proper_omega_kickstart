@@ -6,7 +6,8 @@ $altheaderfont: 'Cantarell', sans-serif;
 
 //text color
 $color1: #4D4D4D;
-$color2: #4D4D4D;
+$color2: #FFF;
+$linkcolor: #ED3B49;
 
 
 
@@ -16,22 +17,22 @@ $tabletmenubg: transparent;
 // User Zone
 $topbarbackground: #888;
 // shopping cart block (in user zone)
-$cartceckoutbg: #999;
+$cartceckoutbg: #FFF;
 $cartceckoutcolor: #FFF;
 // main menu
-$mainmenuitembg: #EEE;
-$mainmenuitemborder: 1px solid #CCC;
-$mainmenulinkcolor: #888;
+$mainmenuitembg: #FFF;
+$mainmenuitemborder: none;
+$mainmenulinkcolor: #4D4D4D;
 $mainmenuitembghover: #FFF;
-$mainmenuitemborderhover: 1px solid #CCC;
+$mainmenuitemborderhover: none;
 $mainmenuitemfonthover: #ED3B49;
 $mainmenuitemfontactive: #ED3B49;
 // secondary menu
-$secondarymenuitembg: #EEE;
-$secondarymenuitemborder: 1px solid #CCC;
-$secondarymenulinkcolor: #888;
+$secondarymenuitembg: #FFF;
+$secondarymenuitemborder: none;
+$secondarymenulinkcolor: #4D4D4D;
 $secondarymenuitembghover: #FFF;
-$secondarymenuitemborderhover: 1px solid #CCC;
+$secondarymenuitemborderhover: none;
 $secondarymenuitemfonthover: #ED3B49;
 $secondarymenuitemfontactive: #ED3B49;
 
