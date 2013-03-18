@@ -103,10 +103,12 @@ ul {
   }
 }
 /**
- * Reset Omega text shadow
+ * Reset Omega text shadow and font
  */
 button, input[type="reset"], input[type="submit"], input[type="button"] {
   text-shadow: 0 0 0 transparent;
+  font: bold 12px/1.2 $headerfont;
+  text-transform: uppercase;
 }
 /**
  * Remove Cloud-zoom lens default border/margin.
@@ -2826,10 +2828,10 @@ article.comment {
       //background: -moz-linear-gradient(top center, #60aa20 0%, #199107 100%);
       border: 0;
       @include rounded-corners(4px);
-      color: #ffffff;
+      color: $color1;
       padding: 10px 15px;
       &:hover {
-        //background: #60aa20;
+        background: none;
 		color: $linkcolor;
       }
     }
@@ -2946,12 +2948,12 @@ article.comment {
     //background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2698F2), color-stop(1, #207cca));
     //background: -moz-linear-gradient(top center, #2698F2 0%, #207cca 100%);
     @include rounded-corners(4px);
-    color: $color2;
+    color: $color1;
     font-size: 16px;
     margin-left: 0px;
     padding: 15px 20px;
     &:hover {
-      background: $color1;
+      background: none;
 	  color: $linkcolor;
     }
   }
