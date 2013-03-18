@@ -134,7 +134,7 @@ body {
   //background: $bodybg;
   font-family: $headerfont;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 12px;
   margin: 0;
   width: 100%;
   overflow-x: hidden;
@@ -2504,7 +2504,7 @@ ol.inline.commerce-checkout-progress {
 /**********************************************
 * 6.2. Toolbar styles
 **********************************************/
-body.toolbar {
+body.toolbar #toolbar {
   text-transform: none;
 }
 /**************************************************
