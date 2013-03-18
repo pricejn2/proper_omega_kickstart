@@ -2947,7 +2947,8 @@ article.comment {
     //background: #207cca;
     //background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2698F2), color-stop(1, #207cca));
     //background: -moz-linear-gradient(top center, #2698F2 0%, #207cca 100%);
-    @include rounded-corners(4px);
+    border: 1px solid #d8d8d8;
+	@include rounded-corners(4px);
     color: $color1;
     font-size: 16px;
     margin-left: 0px;
@@ -3045,10 +3046,9 @@ article.comment {
           background-color: transparent;
           border: 0 none;
           @include rounded-corners(0px);
-          color: #898A8C;
 
           .active {
-            color:#000000;
+            color: $linkcolor;
             font-weight: bold;
           }
         }
