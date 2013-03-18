@@ -36,7 +36,6 @@
   5.4. Checkout process
 6. Kickstart specific
   6.1. Homepage elements
-  6.2. Toolbar styles
 7. Blog
 8. Comments
 9. User account
@@ -141,6 +140,9 @@ body {
   width: 100%;
   overflow-x: hidden;
   text-transform: uppercase;
+	#toolbar {
+	  text-transform: none;
+	}
 }
 // default region positioning on mobile
 .region {
@@ -465,6 +467,26 @@ select {
     margin: 10px 0;
     text-align: center;
   }
+
+  #block-block-5 {
+    float: none;
+    text-align: center;
+  }
+  
+  #block-superfish-1 {
+	float:right;
+	position:relative;
+	left:-50%;
+	text-align:left;
+  }
+    ul {
+	  position:relative;
+	  left:50%;
+	}
+	li {
+	  float:left;
+	  position:relative;
+	}
 }
 /**
 * Search block
@@ -519,7 +541,6 @@ select {
 * Main menu
 */
 ul#superfish-1 {
-  float: right;
   text-transform: uppercase;
 }
 /**********************************************
@@ -2523,12 +2544,6 @@ ol.inline.commerce-checkout-progress {
 .front .region-content-inner {
   min-height: 100%;
   padding: 0;
-}
-/**********************************************
-* 6.2. Toolbar styles
-**********************************************/
-body.toolbar #toolbar {
-  text-transform: none;
 }
 /**************************************************
 * --

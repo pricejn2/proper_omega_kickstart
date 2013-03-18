@@ -33,6 +33,12 @@
     float: left; /* LTR */
     text-align: left; /* LTR */
   }
+  
+  #block-block-5, 
+  #block-superfish-1 {
+    float: right; 
+    text-align: right;
+  }
 }
 /**
 * Search block
