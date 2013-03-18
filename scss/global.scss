@@ -472,6 +472,21 @@ select {
     float: none;
     text-align: center;
   }
+  
+  #block-superfish-1 {
+    float: right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+      ul#superfish-1 {
+	    position:relative;
+	    left:50%;
+	  }
+	  li {
+	    float:left;
+	    position:relative;
+	  }
+  }
 }
 /**
 * Search block
