@@ -20,13 +20,18 @@ $topbarbackground: #888;
 $cartceckoutbg: #FFF;
 $cartceckoutcolor: #FFF;
 // main menu
-$mainmenuitembg: #E7E7E7;
+$mainmenuitembg: #FFF;
 $mainmenuitemborder: none;
 $mainmenulinkcolor: #4D4D4D;
-$mainmenuitembghover: #AAAAAA;
+$mainmenuitembghover: #FFF;
 $mainmenuitemborderhover: none;
 $mainmenuitemfonthover: #ED3B49;
 $mainmenuitemfontactive: #ED3B49;
+// main menu 2nd level
+$mainmenuitembgdepth2: #E7E7E7;
+$mainmenuitembghoverdepth2: #AAAAAA;
+$mainmenuitemfonthoverdepth2: #4D4D4D;
+$mainmenuitemfontactivedepth2: #4D4D4D;
 // secondary menu
 $secondarymenuitembg: #FFF;
 $secondarymenuitemborder: none;

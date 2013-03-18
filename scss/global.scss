@@ -229,25 +229,46 @@ select {
 
 /* Superfish menus */
 .sf-menu.sf-style-white {
-	li {
-	  background: $mainmenuitembg;
-	}
-	a {
-      background-color: $mainmenuitembg;
-      border: $mainmenuitemborder;
-      color: $mainmenulinkcolor;
-	  
-	  &.active,
-      &:hover {
-        background-color: $mainmenuitembghover;
-        border: $mainmenuitemborderhover;
+	.sf-depth-1 {
+	  li {
+	    background: $mainmenuitembg;
 	  }
-	  &.active {
-        color: $mainmenuitemfontactive;
-      }
-      &:hover {
-        color: $mainmenuitemfonthover;
-      }
+	  a {
+        background-color: $mainmenuitembg;
+        border: $mainmenuitemborder;
+        color: $mainmenulinkcolor;
+	  
+	    &.active,
+        &:hover {
+          background-color: $mainmenuitembghover;
+          border: $mainmenuitemborderhover;
+	    }
+	    &.active {
+          color: $mainmenuitemfontactive;
+        }
+        &:hover {
+          color: $mainmenuitemfonthover;
+        }
+	  }	  
+	}
+	.sf-depth-2 {
+	  li {
+	    background: $mainmenuitembgdepth2;
+	  }
+	  a {
+        background-color: $mainmenuitembgdepth2;
+	  
+	    &.active,
+        &:hover {
+          background-color: $mainmenuitembghoverdepth2;
+	    }
+	    &.active {
+          color: $mainmenuitemfontactivedepth2;
+        }
+        &:hover {
+          color: $mainmenuitemfonthoverdepth2;
+        }
+	  }	
 	}
 }
 /**************************************************
