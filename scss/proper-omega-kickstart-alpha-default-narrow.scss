@@ -2,7 +2,28 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the normal and widescreen layouts. You may override these styles in the normal
  *  and widescreen CSS files as appropriate. */
-
+/**************************************************
+* --
+* 2. Section header
+* --
+**************************************************/
+/**********************************************
+* 2.2. Zone branding
+**********************************************/
+.zone-branding .region-branding  #block-superfish-1 {
+  float:right;
+  position:relative;
+  left:-50%;
+  text-align:left;
+    ul {
+	  position:relative;
+	  left:50%;
+	}
+	li {
+	  float:left;
+	  position:relative;
+	}
+}
 /**************************************************
 * --
 * 3. Section content
