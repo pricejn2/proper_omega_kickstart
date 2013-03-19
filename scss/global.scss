@@ -461,6 +461,7 @@ select {
 **********************************************/
 .zone-branding .region-branding {
   margin: 50px 0 15px 0;
+  border-bottom: 1px solid #949A9D;
 
   .logo-img {
     float: none;
@@ -1250,6 +1251,9 @@ ul#superfish-1 {
 }
 body.activebar-container .zone-footer2-wrapper {
   min-height: 100px;
+}
+.region-footer2-first {
+  border-top: 1px solid #949A9D;
 }
 /**
 * Powered by Drupal Commerce
