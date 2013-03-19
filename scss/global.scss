@@ -472,6 +472,7 @@ select {
   #block-block-5 {
     float: none;
     text-align: center;
+	margin-top: 0px;
   }
   
   #block-superfish-1 {
@@ -479,6 +480,7 @@ select {
     position: relative;
     left: -50%;
     text-align: left;
+	margin-top: 0px;
       ul#superfish-1 {
 	    position: relative;
 	    left: 50%;
@@ -1809,7 +1811,7 @@ div.messages.commerce-add-to-cart-confirmation {
       clear: both;
 
       .cloud-zoom-gallery {
-        border: 1px solid #5b5b5b;
+        //border: 1px solid #5b5b5b;
         display: inline-block;
         float: none;
         margin: 5px 0;
